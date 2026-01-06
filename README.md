@@ -120,15 +120,16 @@ The React app uses Axios to call the backend API (e.g. `http://localhost:8080/em
 
 Typical workflow for changes:
 
-git status
-git add .
-git commit -m "Describe your change"
-git push---
+- git status
+- git add .
+- git commit -m "Describe your change"
+- git push
+
+---
 
 ## Future Improvements
 
 - Better form validation and error handling in the UI.
-- Pagination, sorting, and filtering in the employee table.
 - Authentication and role‑based access control.
 - Automated tests (unit/integration for backend, component tests for frontend).
 - Dockerization for backend + database, and CI/CD pipeline.
