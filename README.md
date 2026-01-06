@@ -92,10 +92,12 @@ All responses use JSON.
 
 From the project root:
 
--cd employee-web
--npm install
--npm run dev
--The frontend dev server will run at (by default):
+- cd employee-web
+- npm install
+
+- npm run dev
+
+- The frontend dev server will run at (by default):
 
 - `http://localhost:5173`
 
@@ -108,10 +110,10 @@ The React app uses Axios to call the backend API (e.g. `http://localhost:8080/em
 1. Start PostgreSQL and ensure the database/schema exist.
 2. In one terminal (project root):
    mvn spring-boot:run
-   3. In another terminal:
+3. In another terminal:
    cd employee-web
    npm run dev
-   4. Open `http://localhost:5173` in your browser to use the UI.
+4. Open `http://localhost:5173` in your browser to use the UI.
 
 ---
 
