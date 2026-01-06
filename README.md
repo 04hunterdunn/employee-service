@@ -98,8 +98,7 @@ From the project root:
 - npm run dev
 
 - The frontend dev server will run at (by default):
-
-- `http://localhost:5173`
+   `http://localhost:5173`
 
 The React app uses Axios to call the backend API (e.g. `http://localhost:8080/employees`) and @tanstack/react-table to render employee data in a table.
 
