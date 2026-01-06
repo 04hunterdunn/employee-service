@@ -92,12 +92,11 @@ All responses use JSON.
 
 From the project root:
 
-- cd employee-web
-- npm install
+1. cd employee-web
+2. npm install
+3. npm run dev
 
-- npm run dev
-
-- The frontend dev server will run at (by default):
+The frontend dev server will run at (by default):
    `http://localhost:5173`
 
 The React app uses Axios to call the backend API (e.g. `http://localhost:8080/employees`) and @tanstack/react-table to render employee data in a table.
@@ -120,10 +119,10 @@ The React app uses Axios to call the backend API (e.g. `http://localhost:8080/em
 
 Typical workflow for changes:
 
-- git status
-- git add .
-- git commit -m "Describe your change"
-- git push
+1. git status
+2. git add .
+3. git commit -m "Describe your change"
+4. git push
 
 ---
 
