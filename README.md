@@ -79,10 +79,10 @@ All responses use JSON.
 - **POST `/employees`**  
   Creates a new employee.
   
-  - **PUT `/employees/{employeeId}`**  
+- **PUT `/employees/{employeeId}`**  
   Updates an existing employee.
 
-  - **DELETE `/employees/{employeeId}`**  
+- **DELETE `/employees/{employeeId}`**  
   Deletes the employee with the given ID.  
   Returns a message string indicating the result.
 
@@ -92,10 +92,10 @@ All responses use JSON.
 
 From the project root:
 
-cd employee-web
-npm install
-npm run dev
-The frontend dev server will run at (by default):
+-cd employee-web
+-npm install
+-npm run dev
+-The frontend dev server will run at (by default):
 
 - `http://localhost:5173`
 
